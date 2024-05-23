@@ -1,0 +1,7 @@
+# Normalize all text files to use LF in the repository
+* text=auto
+
+# Force specific file types to use LF
+*.md text eol=lf
+*.csv text eol=lf
+*.ipynb text eol=lf
